@@ -5,6 +5,7 @@
 ["async"]
 cve = "CVE-2021-43138"
 
-["shellcheck"]
+["ShellCheck"]
 cve = "CVE-2021-28794"
+comment = "Actually VSCode Extension"
 
