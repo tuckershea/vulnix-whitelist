@@ -4,8 +4,11 @@
 
 ["async"]
 cve = "CVE-2021-43138"
+comment = "Refers to another program"
 
 ["ShellCheck"]
-cve = "CVE-2021-28794"
-comment = "Actually VSCode Extension"
+cve = [
+    "CVE-2021-28794"  # Refers to "ShellCheck VSCode Extension
+]
+comment = "Refers to another program"
 
