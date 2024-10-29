@@ -3,12 +3,14 @@
 ##############
 
 ["async"]
-cve = "CVE-2021-43138"
+cve = [
+    "CVE-2021-43138"  # Refers to "caolan/async for Node.js"
+]
 comment = "Refers to another program"
 
 ["ShellCheck"]
 cve = [
-    "CVE-2021-28794"  # Refers to "ShellCheck VSCode Extension
+    "CVE-2021-28794"  # Refers to "ShellCheck VSCode Extension"
 ]
 comment = "Refers to another program"
 
